@@ -30,3 +30,9 @@ button {
   height: 2.1rem;
   margin-left: 8rem;
 }
+
+.alerta {
+  color: crimson;
+  margin-left: 8rem;
+  
+}

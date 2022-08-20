@@ -2,7 +2,6 @@ import React from 'react'
 
 
 const Formulario = ({nombre, setNombre, pass, setPass }) => {
-
   
   return (
     <form>
@@ -16,6 +15,7 @@ const Formulario = ({nombre, setNombre, pass, setPass }) => {
             onChange={(e) => setNombre(e.target.value)} 
             value={nombre} />
         </div>
+       
         <div className='form-group'>
             <label>Contraseña</label>
             <input 
