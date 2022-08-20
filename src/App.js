@@ -11,9 +11,7 @@ function App() {
   const [error, setError] = useState(false)
 
   const validarNombre = (e) => {
-  // Prevenimos el comportamiento por defecto
   e.preventDefault();
-  // Validación input
   if (nombre === "") {
   setError(true)
   return
