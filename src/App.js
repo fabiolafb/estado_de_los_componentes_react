@@ -7,7 +7,7 @@ import Button  from "./components/Button";
 function App() {
   const [nombre, setNombre] = useState('')
   const [pass, setPass] = useState('')
-  const clickBoton = pass === "252525";
+  const deshabilitarBoton = pass === "252525";
   const [error, setError] = useState(false)
 
   const validarNombre = (e) => {
@@ -30,7 +30,7 @@ function App() {
         setNombre={setNombre}
         pass={pass}
         setPass={setPass} />
-      <Button clickBoton={clickBoton} />
+      <Button deshabilitarBoton={deshabilitarBoton} />
       </form>
     </div>
   );

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Button = ({clickBoton}) => {
+const Button = ({deshabilitarBoton}) => {
 
   return (
-    <button type="submit" variant="primary" disabled={!clickBoton}>Iniciar sesión</button>
+    <button type="submit" variant="primary" disabled={!deshabilitarBoton}>Iniciar sesión</button>
       )
 }
  
